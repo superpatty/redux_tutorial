@@ -43,8 +43,8 @@ function todos ( state = [], action) {
 }
 
 const TodoApp = combineReducers({
-    visibilityFilter,
-    todos
+    visibilityFilter: visibilityFilter,
+    todos: todos
 })
 
 export default TodoApp
